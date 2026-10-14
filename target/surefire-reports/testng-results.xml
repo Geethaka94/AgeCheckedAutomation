@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-14T16:06:15 IST" name="Suite" finished-at="2026-10-14T16:07:03 IST" duration-ms="48566">
+    <groups>
+    </groups>
+    <test started-at="2026-10-14T16:06:15 IST" name="Test" finished-at="2026-10-14T16:07:03 IST" duration-ms="48566">
+      <class name="api.test.AgeCheckedTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:15 IST" name="setupData" finished-at="2026-10-14T16:06:15 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testApprovedUser()[pri:1, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:15 IST" name="testApprovedUser" description="TC01: Verify approved user" finished-at="2026-10-14T16:06:22 IST" duration-ms="6407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApprovedUser -->
+        <test-method signature="testUnrecognisedUser()[pri:2, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:22 IST" name="testUnrecognisedUser" description="TC02: Verify unrecognised user" finished-at="2026-10-14T16:06:25 IST" duration-ms="3705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnrecognisedUser -->
+        <test-method signature="testResponseTime()[pri:3, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:25 IST" name="testResponseTime" description="TC03: Verify response time" finished-at="2026-10-14T16:06:27 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testMissingMerchantKey()[pri:4, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:27 IST" name="testMissingMerchantKey" description="TC04: Verify missing merchant key" finished-at="2026-10-14T16:06:29 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingMerchantKey -->
+        <test-method signature="testInvalidMerchantKey()[pri:5, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:29 IST" name="testInvalidMerchantKey" description="TC05: Verify invalid merchant key" finished-at="2026-10-14T16:06:30 IST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidMerchantKey -->
+        <test-method signature="testMissingField(java.lang.String)[pri:6, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:30 IST" name="testMissingField" description="TC06: Missing mandatory field" data-provider="mandatoryFields" finished-at="2026-10-14T16:06:31 IST" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingField -->
+        <test-method signature="testMissingField(java.lang.String)[pri:6, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:31 IST" name="testMissingField" description="TC06: Missing mandatory field" data-provider="mandatoryFields" finished-at="2026-10-14T16:06:32 IST" duration-ms="1230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingField -->
+        <test-method signature="testMissingField(java.lang.String)[pri:6, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:32 IST" name="testMissingField" description="TC06: Missing mandatory field" data-provider="mandatoryFields" finished-at="2026-10-14T16:06:34 IST" duration-ms="1269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[postcode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingField -->
+        <test-method signature="testMissingField(java.lang.String)[pri:6, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:34 IST" name="testMissingField" description="TC06: Missing mandatory field" data-provider="mandatoryFields" finished-at="2026-10-14T16:06:35 IST" duration-ms="1315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dob]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingField -->
+        <test-method signature="testMissingField(java.lang.String)[pri:6, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:35 IST" name="testMissingField" description="TC06: Missing mandatory field" data-provider="mandatoryFields" finished-at="2026-10-14T16:06:36 IST" duration-ms="1282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[countrycode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingField -->
+        <test-method signature="testMissingField(java.lang.String)[pri:6, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:36 IST" name="testMissingField" description="TC06: Missing mandatory field" data-provider="mandatoryFields" finished-at="2026-10-14T16:06:37 IST" duration-ms="1333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingField -->
+        <test-method signature="testInvalidValues(java.lang.String,java.lang.String)[pri:7, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:37 IST" name="testInvalidValues" description="TC07: Invalid field value" data-provider="invalidValues" finished-at="2026-10-14T16:06:39 IST" duration-ms="1213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1967-06-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidValues -->
+        <test-method signature="testInvalidValues(java.lang.String,java.lang.String)[pri:7, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:39 IST" name="testInvalidValues" description="TC07: Invalid field value" data-provider="invalidValues" finished-at="2026-10-14T16:06:40 IST" duration-ms="1234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31/02/1967]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidValues -->
+        <test-method signature="testInvalidValues(java.lang.String,java.lang.String)[pri:7, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:40 IST" name="testInvalidValues" description="TC07: Invalid field value" data-provider="invalidValues" finished-at="2026-10-14T16:06:41 IST" duration-ms="1224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userexample.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidValues -->
+        <test-method signature="testInvalidValues(java.lang.String,java.lang.String)[pri:7, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:41 IST" name="testInvalidValues" description="TC07: Invalid field value" data-provider="invalidValues" finished-at="2026-10-14T16:06:42 IST" duration-ms="1228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidValues -->
+        <test-method signature="testInvalidValues(java.lang.String,java.lang.String)[pri:7, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:42 IST" name="testInvalidValues" description="TC07: Invalid field value" data-provider="invalidValues" finished-at="2026-10-14T16:06:44 IST" duration-ms="1327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[countrycode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidValues -->
+        <test-method signature="testInvalidValues(java.lang.String,java.lang.String)[pri:7, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:44 IST" name="testInvalidValues" description="TC07: Invalid field value" data-provider="invalidValues" finished-at="2026-10-14T16:06:45 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[countrycode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidValues -->
+        <test-method signature="testInvalidValues(java.lang.String,java.lang.String)[pri:7, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:45 IST" name="testInvalidValues" description="TC07: Invalid field value" data-provider="invalidValues" finished-at="2026-10-14T16:06:46 IST" duration-ms="1207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidValues -->
+        <test-method signature="testDifferentSurnames(java.lang.String)[pri:8, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:46 IST" name="testDifferentSurnames" description="TC08: Different surnames" data-provider="surnames" finished-at="2026-10-14T16:06:48 IST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COMPLETELYFOUND]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDifferentSurnames -->
+        <test-method signature="testDifferentSurnames(java.lang.String)[pri:8, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:48 IST" name="testDifferentSurnames" description="TC08: Different surnames" data-provider="surnames" finished-at="2026-10-14T16:06:50 IST" duration-ms="1878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NOTFOUND]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDifferentSurnames -->
+        <test-method signature="testDifferentSurnames(java.lang.String)[pri:8, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:50 IST" name="testDifferentSurnames" description="TC08: Different surnames" data-provider="surnames" finished-at="2026-10-14T16:06:52 IST" duration-ms="1789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ NOTFOUND ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDifferentSurnames -->
+        <test-method signature="testDifferentSurnames(java.lang.String)[pri:8, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:52 IST" name="testDifferentSurnames" description="TC08: Different surnames" data-provider="surnames" finished-at="2026-10-14T16:06:53 IST" duration-ms="1213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDifferentSurnames -->
+        <test-method signature="testInjectionInName(java.lang.String)[pri:9, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:53 IST" name="testInjectionInName" description="TC09: Injection in name" data-provider="injectionPayloads" finished-at="2026-10-14T16:06:54 IST" duration-ms="1170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectionInName -->
+        <test-method signature="testInjectionInName(java.lang.String)[pri:9, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:54 IST" name="testInjectionInName" description="TC09: Injection in name" data-provider="injectionPayloads" finished-at="2026-10-14T16:06:55 IST" duration-ms="1163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['; DROP TABLE users;--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectionInName -->
+        <test-method signature="testInjectionInEmail(java.lang.String)[pri:10, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:55 IST" name="testInjectionInEmail" description="TC10: Injection in email" data-provider="injectionPayloads" finished-at="2026-10-14T16:06:56 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectionInEmail -->
+        <test-method signature="testInjectionInEmail(java.lang.String)[pri:10, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:56 IST" name="testInjectionInEmail" description="TC10: Injection in email" data-provider="injectionPayloads" finished-at="2026-10-14T16:06:58 IST" duration-ms="1181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['; DROP TABLE users;--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectionInEmail -->
+        <test-method signature="testInjectionInMerchantKey(java.lang.String)[pri:11, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:58 IST" name="testInjectionInMerchantKey" description="TC11: Injection in merchant key" data-provider="injectionPayloads" finished-at="2026-10-14T16:06:59 IST" duration-ms="1154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectionInMerchantKey -->
+        <test-method signature="testInjectionInMerchantKey(java.lang.String)[pri:11, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:06:59 IST" name="testInjectionInMerchantKey" description="TC11: Injection in merchant key" data-provider="injectionPayloads" finished-at="2026-10-14T16:07:00 IST" duration-ms="1114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA['; DROP TABLE users;--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectionInMerchantKey -->
+        <test-method signature="testGetNotAllowed()[pri:12, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:07:00 IST" name="testGetNotAllowed" description="TC12: Verify GET is not allowed" finished-at="2026-10-14T16:07:01 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNotAllowed -->
+        <test-method signature="testMalformedJson()[pri:13, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:07:01 IST" name="testMalformedJson" description="TC13: Test malformed JSON" finished-at="2026-10-14T16:07:02 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMalformedJson -->
+        <test-method signature="testEmptyBody()[pri:14, instance:api.test.AgeCheckedTest@6356695f]" started-at="2026-10-14T16:07:02 IST" name="testEmptyBody" description="TC14: Test empty JSON object" finished-at="2026-10-14T16:07:03 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyBody -->
+      </class> <!-- api.test.AgeCheckedTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

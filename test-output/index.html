@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>F:\RestAssured\AgeCheckedAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testApprovedUser">testApprovedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testDifferentSurnames( NOTFOUND )">testDifferentSurnames( NOTFOUND )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testDifferentSurnames(COMPLETELYFOUND)">testDifferentSurnames(COMPLETELYFOUND)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testDifferentSurnames()">testDifferentSurnames()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testDifferentSurnames(NOTFOUND)">testDifferentSurnames(NOTFOUND)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testEmptyBody">testEmptyBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testGetNotAllowed">testGetNotAllowed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInjectionInEmail(&#039; OR &#039;1&#039;=&#039;1)">testInjectionInEmail(' OR '1'='1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInjectionInEmail(&#039;; DROP TABLE users;--)">testInjectionInEmail('; DROP TABLE users;--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInjectionInMerchantKey(&#039; OR &#039;1&#039;=&#039;1)">testInjectionInMerchantKey(' OR '1'='1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInjectionInMerchantKey(&#039;; DROP TABLE users;--)">testInjectionInMerchantKey('; DROP TABLE users;--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInjectionInName(&#039;; DROP TABLE users;--)">testInjectionInName('; DROP TABLE users;--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInjectionInName(&#039; OR &#039;1&#039;=&#039;1)">testInjectionInName(' OR '1'='1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidMerchantKey">testInvalidMerchantKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidValues(dob, 31/02/1967)">testInvalidValues(dob, 31/02/1967)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidValues(email, userexample.com)">testInvalidValues(email, userexample.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidValues(email, user@@)">testInvalidValues(email, user@@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidValues(countrycode, US)">testInvalidValues(countrycode, US)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidValues(name,    )">testInvalidValues(name,    )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidValues(countrycode, )">testInvalidValues(countrycode, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testInvalidValues(dob, 1967-06-15)">testInvalidValues(dob, 1967-06-15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMalformedJson">testMalformedJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMissingField(name)">testMissingField(name)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMissingField(email)">testMissingField(email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMissingField(postcode)">testMissingField(postcode)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMissingField(surname)">testMissingField(surname)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMissingField(countrycode)">testMissingField(countrycode)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMissingField(dob)">testMissingField(dob)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testMissingMerchantKey">testMissingMerchantKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testResponseTime">testResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.AgeCheckedTest" class="method navigator-link" hash-for-method="testUnrecognisedUser">testUnrecognisedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.AgeCheckedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApprovedUser">
+                  </a> <!-- testApprovedUser -->
+                  <span class="method-name">testApprovedUser</span>
+                  <em>
+(TC01: Verify approved user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDifferentSurnames( NOTFOUND )">
+                  </a> <!-- testDifferentSurnames( NOTFOUND ) -->
+                  <span class="method-name">testDifferentSurnames</span>
+                  <span class="parameters">( NOTFOUND )</span>
+                  <em>
+(TC08: Different surnames)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDifferentSurnames(COMPLETELYFOUND)">
+                  </a> <!-- testDifferentSurnames(COMPLETELYFOUND) -->
+                  <span class="method-name">testDifferentSurnames</span>
+                  <span class="parameters">(COMPLETELYFOUND)</span>
+                  <em>
+(TC08: Different surnames)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDifferentSurnames()">
+                  </a> <!-- testDifferentSurnames() -->
+                  <span class="method-name">testDifferentSurnames</span>
+                  <span class="parameters">()</span>
+                  <em>
+(TC08: Different surnames)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDifferentSurnames(NOTFOUND)">
+                  </a> <!-- testDifferentSurnames(NOTFOUND) -->
+                  <span class="method-name">testDifferentSurnames</span>
+                  <span class="parameters">(NOTFOUND)</span>
+                  <em>
+(TC08: Different surnames)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyBody">
+                  </a> <!-- testEmptyBody -->
+                  <span class="method-name">testEmptyBody</span>
+                  <em>
+(TC14: Test empty JSON object)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotAllowed">
+                  </a> <!-- testGetNotAllowed -->
+                  <span class="method-name">testGetNotAllowed</span>
+                  <em>
+(TC12: Verify GET is not allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectionInEmail(&#039; OR &#039;1&#039;=&#039;1)">
+                  </a> <!-- testInjectionInEmail(' OR '1'='1) -->
+                  <span class="method-name">testInjectionInEmail</span>
+                  <span class="parameters">(' OR '1'='1)</span>
+                  <em>
+(TC10: Injection in email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectionInEmail(&#039;; DROP TABLE users;--)">
+                  </a> <!-- testInjectionInEmail('; DROP TABLE users;-) -->
+                  <span class="method-name">testInjectionInEmail</span>
+                  <span class="parameters">('; DROP TABLE users;--)</span>
+                  <em>
+(TC10: Injection in email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectionInMerchantKey(&#039; OR &#039;1&#039;=&#039;1)">
+                  </a> <!-- testInjectionInMerchantKey(' OR '1'='1) -->
+                  <span class="method-name">testInjectionInMerchantKey</span>
+                  <span class="parameters">(' OR '1'='1)</span>
+                  <em>
+(TC11: Injection in merchant key)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectionInMerchantKey(&#039;; DROP TABLE users;--)">
+                  </a> <!-- testInjectionInMerchantKey('; DROP TABLE users;-) -->
+                  <span class="method-name">testInjectionInMerchantKey</span>
+                  <span class="parameters">('; DROP TABLE users;--)</span>
+                  <em>
+(TC11: Injection in merchant key)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectionInName(&#039;; DROP TABLE users;--)">
+                  </a> <!-- testInjectionInName('; DROP TABLE users;-) -->
+                  <span class="method-name">testInjectionInName</span>
+                  <span class="parameters">('; DROP TABLE users;--)</span>
+                  <em>
+(TC09: Injection in name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectionInName(&#039; OR &#039;1&#039;=&#039;1)">
+                  </a> <!-- testInjectionInName(' OR '1'='1) -->
+                  <span class="method-name">testInjectionInName</span>
+                  <span class="parameters">(' OR '1'='1)</span>
+                  <em>
+(TC09: Injection in name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidMerchantKey">
+                  </a> <!-- testInvalidMerchantKey -->
+                  <span class="method-name">testInvalidMerchantKey</span>
+                  <em>
+(TC05: Verify invalid merchant key)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidValues(dob, 31/02/1967)">
+                  </a> <!-- testInvalidValues(dob, 31/02/1967) -->
+                  <span class="method-name">testInvalidValues</span>
+                  <span class="parameters">(dob,31/02/1967)</span>
+                  <em>
+(TC07: Invalid field value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidValues(email, userexample.com)">
+                  </a> <!-- testInvalidValues(email, userexample.com) -->
+                  <span class="method-name">testInvalidValues</span>
+                  <span class="parameters">(email,userexample.com)</span>
+                  <em>
+(TC07: Invalid field value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidValues(email, user@@)">
+                  </a> <!-- testInvalidValues(email, user@@) -->
+                  <span class="method-name">testInvalidValues</span>
+                  <span class="parameters">(email,user@@)</span>
+                  <em>
+(TC07: Invalid field value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidValues(countrycode, US)">
+                  </a> <!-- testInvalidValues(countrycode, US) -->
+                  <span class="method-name">testInvalidValues</span>
+                  <span class="parameters">(countrycode,US)</span>
+                  <em>
+(TC07: Invalid field value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidValues(name,    )">
+                  </a> <!-- testInvalidValues(name,    ) -->
+                  <span class="method-name">testInvalidValues</span>
+                  <span class="parameters">(name,   )</span>
+                  <em>
+(TC07: Invalid field value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidValues(countrycode, )">
+                  </a> <!-- testInvalidValues(countrycode, ) -->
+                  <span class="method-name">testInvalidValues</span>
+                  <span class="parameters">(countrycode,)</span>
+                  <em>
+(TC07: Invalid field value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidValues(dob, 1967-06-15)">
+                  </a> <!-- testInvalidValues(dob, 1967-06-15) -->
+                  <span class="method-name">testInvalidValues</span>
+                  <span class="parameters">(dob,1967-06-15)</span>
+                  <em>
+(TC07: Invalid field value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMalformedJson">
+                  </a> <!-- testMalformedJson -->
+                  <span class="method-name">testMalformedJson</span>
+                  <em>
+(TC13: Test malformed JSON)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingField(name)">
+                  </a> <!-- testMissingField(name) -->
+                  <span class="method-name">testMissingField</span>
+                  <span class="parameters">(name)</span>
+                  <em>
+(TC06: Missing mandatory field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingField(email)">
+                  </a> <!-- testMissingField(email) -->
+                  <span class="method-name">testMissingField</span>
+                  <span class="parameters">(email)</span>
+                  <em>
+(TC06: Missing mandatory field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingField(postcode)">
+                  </a> <!-- testMissingField(postcode) -->
+                  <span class="method-name">testMissingField</span>
+                  <span class="parameters">(postcode)</span>
+                  <em>
+(TC06: Missing mandatory field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingField(surname)">
+                  </a> <!-- testMissingField(surname) -->
+                  <span class="method-name">testMissingField</span>
+                  <span class="parameters">(surname)</span>
+                  <em>
+(TC06: Missing mandatory field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingField(countrycode)">
+                  </a> <!-- testMissingField(countrycode) -->
+                  <span class="method-name">testMissingField</span>
+                  <span class="parameters">(countrycode)</span>
+                  <em>
+(TC06: Missing mandatory field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingField(dob)">
+                  </a> <!-- testMissingField(dob) -->
+                  <span class="method-name">testMissingField</span>
+                  <span class="parameters">(dob)</span>
+                  <em>
+(TC06: Missing mandatory field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingMerchantKey">
+                  </a> <!-- testMissingMerchantKey -->
+                  <span class="method-name">testMissingMerchantKey</span>
+                  <em>
+(TC04: Verify missing merchant key)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseTime">
+                  </a> <!-- testResponseTime -->
+                  <span class="method-name">testResponseTime</span>
+                  <em>
+(TC03: Verify response time)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnrecognisedUser">
+                  </a> <!-- testUnrecognisedUser -->
+                  <span class="method-name">testUnrecognisedUser</span>
+                  <em>
+(TC02: Verify unrecognised user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\RestAssured\AgeCheckedAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;api.utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.AgeCheckedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testApprovedUser')
+data.setCell(0, 2, 'api.test.AgeCheckedTest')
+data.setCell(0, 3, 5845);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDifferentSurnames')
+data.setCell(1, 2, 'api.test.AgeCheckedTest')
+data.setCell(1, 3, 2210);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUnrecognisedUser')
+data.setCell(2, 2, 'api.test.AgeCheckedTest')
+data.setCell(2, 3, 2084);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDifferentSurnames')
+data.setCell(3, 2, 'api.test.AgeCheckedTest')
+data.setCell(3, 3, 2048);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDifferentSurnames')
+data.setCell(4, 2, 'api.test.AgeCheckedTest')
+data.setCell(4, 3, 1865);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testInvalidValues')
+data.setCell(5, 2, 'api.test.AgeCheckedTest')
+data.setCell(5, 3, 1844);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testResponseTime')
+data.setCell(6, 2, 'api.test.AgeCheckedTest')
+data.setCell(6, 3, 1819);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMissingField')
+data.setCell(7, 2, 'api.test.AgeCheckedTest')
+data.setCell(7, 3, 1419);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testInvalidValues')
+data.setCell(8, 2, 'api.test.AgeCheckedTest')
+data.setCell(8, 3, 1387);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMissingField')
+data.setCell(9, 2, 'api.test.AgeCheckedTest')
+data.setCell(9, 3, 1322);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMissingMerchantKey')
+data.setCell(10, 2, 'api.test.AgeCheckedTest')
+data.setCell(10, 3, 1303);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testMissingField')
+data.setCell(11, 2, 'api.test.AgeCheckedTest')
+data.setCell(11, 3, 1262);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testMissingField')
+data.setCell(12, 2, 'api.test.AgeCheckedTest')
+data.setCell(12, 3, 1248);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMissingField')
+data.setCell(13, 2, 'api.test.AgeCheckedTest')
+data.setCell(13, 3, 1236);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testInvalidMerchantKey')
+data.setCell(14, 2, 'api.test.AgeCheckedTest')
+data.setCell(14, 3, 1232);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMissingField')
+data.setCell(15, 2, 'api.test.AgeCheckedTest')
+data.setCell(15, 3, 1223);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testInvalidValues')
+data.setCell(16, 2, 'api.test.AgeCheckedTest')
+data.setCell(16, 3, 1221);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testInvalidValues')
+data.setCell(17, 2, 'api.test.AgeCheckedTest')
+data.setCell(17, 3, 1219);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testInvalidValues')
+data.setCell(18, 2, 'api.test.AgeCheckedTest')
+data.setCell(18, 3, 1215);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testInvalidValues')
+data.setCell(19, 2, 'api.test.AgeCheckedTest')
+data.setCell(19, 3, 1189);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testGetNotAllowed')
+data.setCell(20, 2, 'api.test.AgeCheckedTest')
+data.setCell(20, 3, 1187);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testDifferentSurnames')
+data.setCell(21, 2, 'api.test.AgeCheckedTest')
+data.setCell(21, 3, 1180);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testInvalidValues')
+data.setCell(22, 2, 'api.test.AgeCheckedTest')
+data.setCell(22, 3, 1178);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testInjectionInEmail')
+data.setCell(23, 2, 'api.test.AgeCheckedTest')
+data.setCell(23, 3, 1168);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testEmptyBody')
+data.setCell(24, 2, 'api.test.AgeCheckedTest')
+data.setCell(24, 3, 1164);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testInjectionInName')
+data.setCell(25, 2, 'api.test.AgeCheckedTest')
+data.setCell(25, 3, 1149);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testMalformedJson')
+data.setCell(26, 2, 'api.test.AgeCheckedTest')
+data.setCell(26, 3, 1148);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testInjectionInEmail')
+data.setCell(27, 2, 'api.test.AgeCheckedTest')
+data.setCell(27, 3, 1148);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testInjectionInName')
+data.setCell(28, 2, 'api.test.AgeCheckedTest')
+data.setCell(28, 3, 1144);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testInjectionInMerchantKey')
+data.setCell(29, 2, 'api.test.AgeCheckedTest')
+data.setCell(29, 3, 1131);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testInjectionInMerchantKey')
+data.setCell(30, 2, 'api.test.AgeCheckedTest')
+data.setCell(30, 3, 1100);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.AgeCheckedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testApprovedUser</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUnrecognisedUser</span>
+                <span class="method-start">5906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseTime</span>
+                <span class="method-start">8089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMissingMerchantKey</span>
+                <span class="method-start">9916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidMerchantKey</span>
+                <span class="method-start">11226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMissingField(name)</span>
+                <span class="method-start">12468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMissingField(surname)</span>
+                <span class="method-start">13725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMissingField(postcode)</span>
+                <span class="method-start">14991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMissingField(dob)</span>
+                <span class="method-start">16416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMissingField(countrycode)</span>
+                <span class="method-start">17741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMissingField(email)</span>
+                <span class="method-start">18984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidValues(dob, 1967-06-15)</span>
+                <span class="method-start">20211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidValues(dob, 31/02/1967)</span>
+                <span class="method-start">21402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidValues(email, userexample.com)</span>
+                <span class="method-start">22626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidValues(email, user@@)</span>
+                <span class="method-start">23843 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidValues(countrycode, US)</span>
+                <span class="method-start">25064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidValues(countrycode, )</span>
+                <span class="method-start">26909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidValues(name,    )</span>
+                <span class="method-start">28091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDifferentSurnames(COMPLETELYFOUND)</span>
+                <span class="method-start">29481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDifferentSurnames(NOTFOUND)</span>
+                <span class="method-start">31700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDifferentSurnames( NOTFOUND )</span>
+                <span class="method-start">33750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDifferentSurnames()</span>
+                <span class="method-start">35619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInjectionInName(' OR '1'='1)</span>
+                <span class="method-start">36802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInjectionInName('; DROP TABLE users;--)</span>
+                <span class="method-start">37952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInjectionInEmail(' OR '1'='1)</span>
+                <span class="method-start">39109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInjectionInEmail('; DROP TABLE users;--)</span>
+                <span class="method-start">40281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInjectionInMerchantKey(' OR '1'='1)</span>
+                <span class="method-start">41432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInjectionInMerchantKey('; DROP TABLE users;--)</span>
+                <span class="method-start">42534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotAllowed</span>
+                <span class="method-start">43671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMalformedJson</span>
+                <span class="method-start">44864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmptyBody</span>
+                <span class="method-start">46015 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

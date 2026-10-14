@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="49.754" tests="31" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\RestAssured\AgeCheckedAutomation\target\test-classes;F:\RestAssured\AgeCheckedAutomation\target\classes;C:\Users\hetti\.m2\repository\io\rest-assured\rest-assured\6.0.1\rest-assured-6.0.1.jar;C:\Users\hetti\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\hetti\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\hetti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hetti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hetti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hetti\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hetti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hetti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hetti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hetti\.m2\repository\io\rest-assured\json-path\6.0.1\json-path-6.0.1.jar;C:\Users\hetti\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\hetti\.m2\repository\io\rest-assured\rest-assured-common\6.0.1\rest-assured-common-6.0.1.jar;C:\Users\hetti\.m2\repository\io\rest-assured\xml-path\6.0.1\xml-path-6.0.1.jar;C:\Users\hetti\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\hetti\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\hetti\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\hetti\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\hetti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hetti\.m2\repository\org\hamcrest\hamcrest-core\3.0\hamcrest-core-3.0.jar;C:\Users\hetti\.m2\repository\org\hamcrest\hamcrest-library\3.0\hamcrest-library-3.0.jar;C:\Users\hetti\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hetti\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hetti\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hetti\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hetti\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hetti\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.19\bin"/>
+    <property name="sun.java.command" value="C:\Users\hetti\AppData\Local\Temp\surefire15775655408974474560\surefirebooter-20261014160614162_3.jar C:\Users\hetti\AppData\Local\Temp\surefire15775655408974474560 2026-10-14T16-06-13_802-jvmRun1 surefire-20261014160614162_1tmp surefire_0-20261014160614162_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\RestAssured\AgeCheckedAutomation\target\test-classes;F:\RestAssured\AgeCheckedAutomation\target\classes;C:\Users\hetti\.m2\repository\io\rest-assured\rest-assured\6.0.1\rest-assured-6.0.1.jar;C:\Users\hetti\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\hetti\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\hetti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hetti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hetti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hetti\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hetti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hetti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hetti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hetti\.m2\repository\io\rest-assured\json-path\6.0.1\json-path-6.0.1.jar;C:\Users\hetti\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\hetti\.m2\repository\io\rest-assured\rest-assured-common\6.0.1\rest-assured-common-6.0.1.jar;C:\Users\hetti\.m2\repository\io\rest-assured\xml-path\6.0.1\xml-path-6.0.1.jar;C:\Users\hetti\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\hetti\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\hetti\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\hetti\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\hetti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hetti\.m2\repository\org\hamcrest\hamcrest-core\3.0\hamcrest-core-3.0.jar;C:\Users\hetti\.m2\repository\org\hamcrest\hamcrest-library\3.0\hamcrest-library-3.0.jar;C:\Users\hetti\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hetti\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hetti\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hetti\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hetti\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hetti\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hetti"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\RestAssured\AgeCheckedAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\hetti\AppData\Local\Temp\surefire15775655408974474560\surefirebooter-20261014160614162_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.19+9-LTS-183"/>
+    <property name="user.name" value="hetti"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hetti\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hetti\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.19"/>
+    <property name="user.dir" value="F:\RestAssured\AgeCheckedAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-17.0.19\bin;C:\Maven\apache-maven-3.9.16\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.16\bin;C:\Program Files\Git\cmd;C:\Users\hetti\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\hetti\AppData\Roaming\npm;C:\Users\hetti\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.19+9-LTS-183"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApprovedUser" classname="api.test.AgeCheckedTest" time="6.424">
+    <system-out><![CDATA[PASSED : TC01: Verify approved user
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnrecognisedUser" classname="api.test.AgeCheckedTest" time="3.7">
+    <system-out><![CDATA[PASSED : TC02: Verify unrecognised user
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseTime" classname="api.test.AgeCheckedTest" time="1.857">
+    <system-out><![CDATA[PASSED : TC03: Verify response time
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingMerchantKey" classname="api.test.AgeCheckedTest" time="1.303">
+    <system-out><![CDATA[PASSED : TC04: Verify missing merchant key
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidMerchantKey" classname="api.test.AgeCheckedTest" time="1.277">
+    <system-out><![CDATA[PASSED : TC05: Verify invalid merchant key
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingField[name](1)" classname="api.test.AgeCheckedTest" time="1.21">
+    <system-out><![CDATA[PASSED : TC06: Missing mandatory field [name]
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingField[surname](2)" classname="api.test.AgeCheckedTest" time="1.232">
+    <system-out><![CDATA[PASSED : TC06: Missing mandatory field [surname]
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingField[postcode](3)" classname="api.test.AgeCheckedTest" time="1.267">
+    <system-out><![CDATA[PASSED : TC06: Missing mandatory field [postcode]
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingField[dob](4)" classname="api.test.AgeCheckedTest" time="1.316">
+    <system-out><![CDATA[PASSED : TC06: Missing mandatory field [dob]
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingField[countrycode](5)" classname="api.test.AgeCheckedTest" time="1.283">
+    <system-out><![CDATA[PASSED : TC06: Missing mandatory field [countrycode]
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingField[email](6)" classname="api.test.AgeCheckedTest" time="1.332">
+    <system-out><![CDATA[PASSED : TC06: Missing mandatory field [email]
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidValues[dob, 1967-06-15](1)" classname="api.test.AgeCheckedTest" time="1.213">
+    <system-out><![CDATA[PASSED : TC07: Invalid field value [dob]
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidValues[dob, 31/02/1967](2)" classname="api.test.AgeCheckedTest" time="1.236">
+    <system-out><![CDATA[PASSED : TC07: Invalid field value [dob]
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidValues[email, userexample.com](3)" classname="api.test.AgeCheckedTest" time="1.222">
+    <system-out><![CDATA[PASSED : TC07: Invalid field value [email]
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidValues[email, user@@](4)" classname="api.test.AgeCheckedTest" time="1.229">
+    <system-out><![CDATA[PASSED : TC07: Invalid field value [email]
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidValues[countrycode, US](5)" classname="api.test.AgeCheckedTest" time="1.327">
+    <system-out><![CDATA[PASSED : TC07: Invalid field value [countrycode]
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidValues[countrycode, ](6)" classname="api.test.AgeCheckedTest" time="1.187">
+    <system-out><![CDATA[PASSED : TC07: Invalid field value [countrycode]
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidValues[name,    ](7)" classname="api.test.AgeCheckedTest" time="1.206">
+    <system-out><![CDATA[PASSED : TC07: Invalid field value [name]
+]]></system-out>
+  </testcase>
+  <testcase name="testDifferentSurnames[COMPLETELYFOUND](1)" classname="api.test.AgeCheckedTest" time="1.863">
+    <system-out><![CDATA[PASSED : TC08: Different surnames [COMPLETELYFOUND]
+]]></system-out>
+  </testcase>
+  <testcase name="testDifferentSurnames[NOTFOUND](2)" classname="api.test.AgeCheckedTest" time="1.884">
+    <system-out><![CDATA[PASSED : TC08: Different surnames [NOTFOUND]
+]]></system-out>
+  </testcase>
+  <testcase name="testDifferentSurnames[ NOTFOUND ](3)" classname="api.test.AgeCheckedTest" time="1.776">
+    <system-out><![CDATA[PASSED : TC08: Different surnames [ NOTFOUND ]
+]]></system-out>
+  </testcase>
+  <testcase name="testDifferentSurnames[](4)" classname="api.test.AgeCheckedTest" time="1.212">
+    <system-out><![CDATA[PASSED : TC08: Different surnames []
+]]></system-out>
+  </testcase>
+  <testcase name="testInjectionInName[&apos; OR &apos;1&apos;=&apos;1](1)" classname="api.test.AgeCheckedTest" time="1.173">
+    <system-out><![CDATA[PASSED : TC09: Injection in name [' OR '1'='1]
+]]></system-out>
+  </testcase>
+  <testcase name="testInjectionInName[&apos;; DROP TABLE users;--](2)" classname="api.test.AgeCheckedTest" time="1.161">
+    <system-out><![CDATA[PASSED : TC09: Injection in name ['; DROP TABLE users;--]
+]]></system-out>
+  </testcase>
+  <testcase name="testInjectionInEmail[&apos; OR &apos;1&apos;=&apos;1](1)" classname="api.test.AgeCheckedTest" time="1.186">
+    <system-out><![CDATA[PASSED : TC10: Injection in email [' OR '1'='1]
+]]></system-out>
+  </testcase>
+  <testcase name="testInjectionInEmail[&apos;; DROP TABLE users;--](2)" classname="api.test.AgeCheckedTest" time="1.195">
+    <system-out><![CDATA[PASSED : TC10: Injection in email ['; DROP TABLE users;--]
+]]></system-out>
+  </testcase>
+  <testcase name="testInjectionInMerchantKey[&apos; OR &apos;1&apos;=&apos;1](1)" classname="api.test.AgeCheckedTest" time="1.145">
+    <system-out><![CDATA[PASSED : TC11: Injection in merchant key [' OR '1'='1]
+]]></system-out>
+  </testcase>
+  <testcase name="testInjectionInMerchantKey[&apos;; DROP TABLE users;--](2)" classname="api.test.AgeCheckedTest" time="1.112">
+    <system-out><![CDATA[PASSED : TC11: Injection in merchant key ['; DROP TABLE users;--]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNotAllowed" classname="api.test.AgeCheckedTest" time="1.262">
+    <system-out><![CDATA[PASSED : TC12: Verify GET is not allowed
+]]></system-out>
+  </testcase>
+  <testcase name="testMalformedJson" classname="api.test.AgeCheckedTest" time="1.203">
+    <system-out><![CDATA[PASSED : TC13: Test malformed JSON
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyBody" classname="api.test.AgeCheckedTest" time="1.157">
+    <system-out><![CDATA[PASSED : TC14: Test empty JSON object
+]]></system-out>
+  </testcase>
+</testsuite>

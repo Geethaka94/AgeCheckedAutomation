@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 14 13:14:31 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47698 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testGetNotAllowed()'><b>testGetNotAllowed</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC12: Verify GET is not allowed</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidValues()'><b>testInvalidValues</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC07: Invalid field value<br>Parameters: dob, 31/02/1967</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInjectionInName()'><b>testInjectionInName</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC09: Injection in name<br>Parameters: '; DROP TABLE users;--</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMissingField()'><b>testMissingField</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC06: Missing mandatory field<br>Parameters: name</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testUnrecognisedUser()'><b>testUnrecognisedUser</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC02: Verify unrecognised user</td>
+<td></td>
+<td>2</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidMerchantKey()'><b>testInvalidMerchantKey</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC05: Verify invalid merchant key</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInjectionInEmail()'><b>testInjectionInEmail</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC10: Injection in email<br>Parameters: ' OR '1'='1</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMissingMerchantKey()'><b>testMissingMerchantKey</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC04: Verify missing merchant key</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testDifferentSurnames()'><b>testDifferentSurnames</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC08: Different surnames<br>Parameters:  NOTFOUND </td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testEmptyBody()'><b>testEmptyBody</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC14: Test empty JSON object</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMissingField()'><b>testMissingField</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC06: Missing mandatory field<br>Parameters: email</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testDifferentSurnames()'><b>testDifferentSurnames</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC08: Different surnames<br>Parameters: COMPLETELYFOUND</td>
+<td></td>
+<td>2</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInjectionInMerchantKey()'><b>testInjectionInMerchantKey</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC11: Injection in merchant key<br>Parameters: ' OR '1'='1</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMalformedJson()'><b>testMalformedJson</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC13: Test malformed JSON</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidValues()'><b>testInvalidValues</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC07: Invalid field value<br>Parameters: email, userexample.com</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidValues()'><b>testInvalidValues</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC07: Invalid field value<br>Parameters: email, user@@</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMissingField()'><b>testMissingField</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC06: Missing mandatory field<br>Parameters: postcode</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testDifferentSurnames()'><b>testDifferentSurnames</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC08: Different surnames<br>Parameters: </td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testDifferentSurnames()'><b>testDifferentSurnames</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC08: Different surnames<br>Parameters: NOTFOUND</td>
+<td></td>
+<td>2</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidValues()'><b>testInvalidValues</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC07: Invalid field value<br>Parameters: countrycode, US</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMissingField()'><b>testMissingField</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC06: Missing mandatory field<br>Parameters: surname</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMissingField()'><b>testMissingField</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC06: Missing mandatory field<br>Parameters: countrycode</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInjectionInEmail()'><b>testInjectionInEmail</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC10: Injection in email<br>Parameters: '; DROP TABLE users;--</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidValues()'><b>testInvalidValues</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC07: Invalid field value<br>Parameters: name,    </td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testResponseTime()'><b>testResponseTime</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC03: Verify response time</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testApprovedUser()'><b>testApprovedUser</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC01: Verify approved user</td>
+<td></td>
+<td>5</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidValues()'><b>testInvalidValues</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC07: Invalid field value<br>Parameters: countrycode, </td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInvalidValues()'><b>testInvalidValues</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC07: Invalid field value<br>Parameters: dob, 1967-06-15</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testMissingField()'><b>testMissingField</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC06: Missing mandatory field<br>Parameters: dob</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInjectionInMerchantKey()'><b>testInjectionInMerchantKey</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC11: Injection in merchant key<br>Parameters: '; DROP TABLE users;--</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+<tr>
+<td title='api.test.AgeCheckedTest.testInjectionInName()'><b>testInjectionInName</b><br>Test class: api.test.AgeCheckedTest<br>Test method: TC09: Injection in name<br>Parameters: ' OR '1'='1</td>
+<td></td>
+<td>1</td>
+<td>api.test.AgeCheckedTest@13c9d689</td></tr>
+</table><p>
+</body>
+</html>
